@@ -1,0 +1,481 @@
+@media only screen and (max-width: 991px) {
+    .header-menu {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .dates-content span {
+        line-height: 1 !important;
+    }
+
+    .todo-action .mr-md-5 {
+        margin-right: 2.3rem !important;
+    }
+
+    .row-sm [class*="col-"] {
+        padding-left: 12.5px;
+        padding-right: 12.5px;
+        margin-bottom: 25px;
+    }
+
+    .desktop-stacked [class*="col-"] {
+        margin-bottom: 25px;
+    }
+
+    .h-100-vh {
+        height: calc(100vh - 5rem);
+        min-height: 850px
+    }
+
+    .select-roles {
+        max-width: 675px;
+        margin: 0 auto;
+        min-width: 675px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .btn {
+        padding: 8px 24px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .btn {
+        padding: 8px 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    body,
+    html {
+        font-size: 14px;
+    }
+
+    .row-sm [class*="col-"] {
+        margin-bottom: 20px;
+    }
+
+    /* FONT SIZES */
+    .text-xl {
+        font-size: 2.2rem;
+    }
+
+    /* EVENTS */
+    .tab--wrap {
+        padding: 0 !important;
+    }
+
+    /****** E-CAROUSEL ******/
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        min-height: 24px;
+    }
+
+    .carousel-control-next-icon:before,
+    .carousel-control-prev-icon:before {
+        zoom: 85%;
+    }
+
+    #eventsTab .nav-item {
+        width: 48%;
+    }
+
+    #eventsTab .nav-item:first-child {
+        margin-bottom: 20px;
+    }
+
+    #eventsTab .nav-item:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    #listedTab .nav-item {
+        width: 48%;
+    }
+
+    #listedTab .nav-item:nth-child(3),
+    #listedTab .nav-item:nth-child(4) {
+        margin: 20px 0;
+    }
+
+    #listedTab .nav-item:last-child {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .dates-content {
+        padding-left: 8px !important;
+        padding-right: 8px !important
+    }
+
+    .dates-content * {
+        text-align: center
+    }
+
+    .card-bg {
+        padding-top: 20px;
+    }
+
+    .cards-wrap .card-bg {
+        padding: 20px 5px;
+    }
+
+    .container {
+        max-width: 650px;
+    }
+
+    /* FOOTER */
+    .subscribe-col {
+        padding: 0;
+    }
+
+    .row-icons {
+        width: 50px;
+        height: 50px;
+    }
+
+    .row-icons svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    footer h6 {
+        font-size: 0.96rem
+    }
+
+    .footer-nav h5 {
+        font-size: 1.2rem
+    }
+
+    /**** GET STARTED *****/
+    .get-started {
+        flex-direction: row;
+    }
+
+    .get-started form.col-md-5 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px
+    }
+
+    .get-started .d-flex.col-md-12.mt-4.justify-content-center {
+        flex-direction: column;
+        padding: 0
+    }
+
+    .get-started input.form-control {
+        padding: 0.7rem;
+    }
+
+    .all-featured img {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .all-featured {
+        margin-bottom: 0 !important;
+    }
+
+    .cards-wrap .title-heading {
+        margin-top: -1rem;
+
+    }
+
+    ul#categoryTab .nav-item {
+        width: 48%;
+        margin: 0 !important;
+    }
+
+    ul#categoryTab {
+        justify-content: space-between !important;
+
+    }
+
+    ul#categoryTab .nav-item>button {
+        width: 100% !important
+    }
+
+    ul#categoryTab .nav-item:first-child,
+    ul#categoryTab .nav-item:nth-child(2) {
+        margin-bottom: 20px !important
+    }
+
+    .category-bg-img a {
+        margin: 0px 0 10px !important;
+    }
+
+    .events-categories .row.justify-content-between {
+        justify-content: center !important;
+        padding-bottom: 2.4rem !important;
+    }
+
+    .category-bg-img a span {
+        width: 90px;
+        height: 90px;
+    }
+
+    .category {
+        padding: 8px;
+    }
+
+    .category-title {
+        font-size: 1.15rem
+    }
+
+    .bookmark.has-stars {
+        justify-content: space-between !important;
+    }
+
+    .bookmark button.btn {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    li.star svg {
+        height: 18px;
+    }
+
+    .todo-action>div {
+        margin-left: 10px
+    }
+
+    .todo-action>div:first-child {
+        margin-left: 0px
+    }
+
+    .todo-action {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 22px;
+    }
+
+    .comment-info {
+        padding-bottom: 55px;
+    }
+
+    .comment {
+        position: relative
+    }
+
+    .event-location {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .helper .row.h-100.d-flex {
+        flex-direction: column-reverse;
+        padding: 1rem !important;
+    }
+
+    .intinerary-action {
+        padding: 0 !important
+    }
+
+    .intinerary-action .text-md,
+    .intinerary-action .text-1x {
+        font-size: 1.08rem !important
+    }
+
+    .intinerary-action:last-child .d-flex.align-items-center {
+        justify-content: space-between !important;
+        width: 100%
+    }
+
+    .intinerary-action .btn-not-padded {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .helper {
+        height: auto;
+    }
+
+    ul#filter-itineryTab .nav-item {
+        width: 48%;
+        margin: 0 !important;
+    }
+
+    ul#filter-itineryTab .nav-item:first-child,
+    ul#filter-itineryTab .nav-item:nth-child(2) {
+        margin-bottom: 20px !important;
+    }
+
+    ul#filter-itineryTab .nav-item button {
+        width: 100%
+    }
+
+    ul#filter-itineryTab {
+        justify-content: space-between !important;
+        display: flex
+    }
+
+    .intinerary-action .btn svg {
+        height: 13px;
+    }
+
+    .select-roles .select-role {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0;
+    }
+
+    .user-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .user-icon h4 {
+        font-size: 1.1rem !important
+    }
+
+    .select-roles {
+        justify-content: space-between !important;
+    }
+
+    .itinerary-illustration img {
+        margin-bottom: -2rem;
+    }
+
+    .event-rounded {
+        width: 65px;
+        height: 65px;
+        margin-right: 15px;
+    }
+
+    .itinerary-list {
+        width: calc(100% - 65px);
+    }
+
+    .horizontal-card {
+        display: flex !important;
+        flex-direction: row;
+        max-height: 70px;
+        height: 70px
+    }
+
+    .horizontal-card img {
+        width: 65px;
+        height: 68px;
+        object-fit: cover;
+    }
+
+    .horizontal-card .card-title {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .intinerary-action.align-items-center.justify-content-center>.d-flex.align-items-center {
+        justify-content: center !important;
+        flex-direction: column;
+
+    }
+
+    .intinerary-action.align-items-center.justify-content-center>.d-flex.align-items-center>* {
+        margin: 10px 0 !important;
+        min-width: 160px;
+        max-width: 160px
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .mobile-wrap {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .category-bg-img a span {
+        width: 92px;
+        height: 92px;
+    }
+
+    .category-bg-img a {
+        margin: 0;
+        margin-right: 5px
+    }
+
+    .category-title {
+        font-size: 1.1rem
+    }
+
+    .select-events>.col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1299px) {
+
+    .category-bg-img a span {
+        width: 110px;
+        height: 110px;
+    }
+
+    .category-bg-img a {
+        margin: 0;
+        margin-right: 5px
+    }
+
+    .category-title {
+        font-size: 1.2rem
+    }
+
+    body,
+    html {
+        font-size: 15px !important
+    }
+
+    .card-btn-wrap .btn {
+        font-size: 0.95rem;
+        max-width: 80px
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .category-bg-img a span {
+        width: 85px;
+        height: 85px;
+    }
+
+    .category {
+        padding: 5px;
+    }
+
+    .category-title {
+        font-size: 1.1rem
+    }
+
+    .user-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .user-icon h4 {
+        font-size: 0.94rem !important
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .itinerary-illustration img {
+        max-width: 80%;
+        margin-bottom: -2rem;
+    }
+}
