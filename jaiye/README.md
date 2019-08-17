@@ -1,6 +1,6 @@
-# nesterapp
+# jaiye
 
-> A Vue.js project
+> lagos tour app
 
 ## Build Setup
 
